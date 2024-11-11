@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A simple JSON Server backend for user management CRUD operations.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "json-server": "json-server --watch db.json --port 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

@@ -1,0 +1,28 @@
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .user-form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-form button:hover {
+    background-color: #0056b3;
+  }
+  
